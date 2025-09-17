@@ -1,0 +1,195 @@
+\author{Lucas Månsson}
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{float}
+\usepackage{graphicx} 
+
+\graphicspath{ {images/} }
+
+\title{Flerdimensionell analys \\ Formelblad och anteckningar LP1 2025}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Kapitel 1: Grundläggande begrepp}
+
+\subsection{Mängder och tallinjen $\mathbb{R}$}
+Snitt, union och differens:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{snittuniondifferens.png}
+\end{figure}
+
+\[
+A \cup B, \quad A \cap B, \quad A \setminus B
+\]
+
+Absolutbelopp:
+
+\[
+    |ab| = |a||b|, \quad |\frac{a}{b}| = \frac{|a|}{|b|} \quad |a+b| \leq |a| + |b|
+\]
+
+\subsection{Planet $\mathbb{R}^2$ och rummet $\mathbb{R}^3$}
+Avståndsformel.  
+\[
+    d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+\]
+
+\subsubsection*{Mängder i planet och rummet}
+\textbf{Omgivning:}  
+Med en omgivning av punkten $(a, b)$ i planet menar vi alla punkter i en cirkelskiva kring denna. Detta kan uttryckas:
+
+\[
+|(x,y) - (a,b)| < d
+\]
+
+Notera att den stränga olikheten ovan innebär att punkterna på själva cirkeln inte ingår i omgivningen.
+
+\textbf{Öppen och sluten mängd.}
+
+\subsection{Begrepp och metoder från linjär algebra}
+
+\subsubsection*{Vektorer}
+\[
+u + v = (a_1,b_1) + (a_2,b_2) = (a_1+a_2, \, b_1+b_2)
+\]
+\[
+u - v = (a_1,b_1) - (a_2,b_2) = (a_1-a_2, \, b_1-b_2)
+\]
+\[
+\lambda u = \lambda (a_1, b_1) = (\lambda a_1, \lambda b_1)
+\]
+\[
+|u+v| \leq |u| + |v|
+\]
+
+\subsubsection*{Skalärprodukt och vektorprodukt}
+Skalärprodukt:
+\[
+u \cdot v = |u||v|\cos\theta
+\]
+\[
+u \cdot v = (a_1, b_1)\cdot(a_2, b_2) = a_1a_2 + b_1b_2
+\]
+
+\subsubsection*{Ortogonal projektion}
+En ortogonal projektion kan beräknas med projektionsformeln.
+
+\subsubsection*{Linjer}
+Vi kan beskriva en linje i planet om vi känner till en punkt $P$ på linjen och en riktningsvektor $v$ som anger dess riktning.  
+
+Om $P=(x_0, y_0)$ och $v = (v_1, v_2)$ så blir linjens ekvation i parameterform:
+\[
+(x, y) = (x_0, y_0) + t(v_1, v_2)
+\]
+
+\textbf{Normalvektor:}  
+Varje linje i planet kan beskrivas på normalform:
+\[
+ax + by + c = 0
+\]
+
+Om vi plockar ut koefficienterna framför $x$ och $y$ och bildar vektorn $n = (a,b)$ blir $n$ vinkelrät mot linjen.  
+
+Givet en punkt $P=(x_0,y_0)$ och normalvektor $n=(a,b)$:
+\[
+a(x - x_0) + b(y - y_0) = 0
+\]
+
+\subsubsection*{Plan}
+Med hjälp av en punkt och två icke-parallella riktningsvektorer kan man få ett plan på parameterform i rummet.
+
+\subsubsection*{Matriser och determinanter}
+
+\subsection{Rummet $\mathbb{R}^n$}
+
+
+\section{Kapitel 2: Analytisk geometri}
+
+\subsection{Geometri i $\mathbb{R}^2$}
+\textbf{Sammanfattning av första- och andragradskurvor:\\}
+
+\textbf{Rät linje:}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{ratlinje.png}
+\end{figure}
+\[
+ax + by + c = 0
+\]
+
+Parabel:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{parabel.png}
+\end{figure}
+\[
+y = ax^2
+\]
+
+Cirkel:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{cirkel.png}
+\end{figure}
+\[
+x^2 + y^2 = r^2
+\]
+
+Ellips
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{ellips.png}
+\end{figure}
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1, \quad \text{asymptoter: } y = \pm \frac{b}{a}x
+\]
+
+Hyperbel
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{hyperbel.png}
+\end{figure}
+\[
+\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1, \quad \text{asymptoter: } y = \pm \frac{b}{a}x
+\]
+För en hyperbel med höger-vänster öppen:
+\[
+\frac{y^2}{b^2} - \frac{x^2}{a^2} = 1
+\]
+
+\subsection{Geometri i $\mathbb{R}^3$}
+
+\section{Kapitel 3: Funktioner}
+
+\subsection{Reellvärda funktioner}
+En reellvärd funktion är av typen
+\[
+\mathbb{R}^n \to \mathbb{R}
+\]
+dvs. en funktion av $n$ variabler där varje funktionsvärde är reellt.
+
+\subsubsection*{Funktioner av typen $\mathbb{R}^2 \to \mathbb{R}$}
+En funktion $f$ av två variabler består av en definitionsmängd $D_f \subseteq \mathbb{R}^2$ och en avbildningsregel:
+\[
+(x,y) \in D_f \mapsto f(x,y) \in \mathbb{R}
+\]
+
+\subsubsection*{Nivåkurvor och nivåytor}
+En nivåkurva består av samtliga punkter i $xy$-planet som ger samma funktionsvärde. 
+Låt f vara en funktion av två variabler, och C, en konstant. Mängden i xy - planet som ges av ekvationen:
+\[
+    f(x,y) = C
+\]
+kallas en \textbf{nivåkurva} till f. Konstanten C motsvarar således “höjden över xy-planet”.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{nivakurva.png}
+\end{figure}
+
+\end{document}
+
