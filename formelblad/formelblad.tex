@@ -77,6 +77,13 @@ u \cdot v = (a_1, b_1)\cdot(a_2, b_2) = a_1a_2 + b_1b_2
 
 \subsubsection*{Ortogonal projektion}
 En ortogonal projektion kan beräknas med projektionsformeln.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{ortogonalprojektion.png}
+\end{figure}
+\[
+    \mathbf{u'} =  \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{v}\|^2} \mathbf{v}
+\]
 
 \subsubsection*{Linjer}
 Vi kan beskriva en linje i planet om vi känner till en punkt $P$ på linjen och en riktningsvektor $v$ som anger dess riktning.  
@@ -110,8 +117,7 @@ Med hjälp av en punkt och två icke-parallella riktningsvektorer kan man få et
 \section{Kapitel 2: Analytisk geometri}
 
 \subsection{Geometri i $\mathbb{R}^2$}
-\textbf{Sammanfattning av första- och andragradskurvor:\\}
-
+\subsubsection*{Sammanfattning av första- och andragradskurvor:}
 \textbf{Rät linje:}
 
 \begin{figure}[H]
@@ -163,6 +169,138 @@ För en hyperbel med höger-vänster öppen:
 \]
 
 \subsection{Geometri i $\mathbb{R}^3$}
+\subsubsection*{Sammanfattning av första- och andragradskurvor}
+
+\textbf{Plan}
+\[
+ax + by + cz + d = 0
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{plan.png}
+\end{figure}
+
+\textbf{Paraboloid}
+\[
+z = \frac{x^2}{a^2} + \frac{y^2}{b^2}
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{paraboloid.png}
+\end{figure}
+
+\textbf{Kon}
+\[
+z^2 = \frac{x^2}{a^2} + \frac{y^2}{b^2}
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{kon.png}
+\end{figure}
+
+\textbf{Sfär}
+\[
+x^2 + y^2 + z^2 = r^2
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{sfar.png}
+\end{figure}
+
+\textbf{Ellipsoid}
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} + \frac{z^2}{c^2} = 1
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{ellipsoid.png}
+\end{figure}
+
+\textbf{Hyperbolisk paraboloid}
+\[
+z = \frac{x^2}{a^2} - \frac{y^2}{b^2}
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{hyperboliskparaboloid.png}
+\end{figure}
+
+\textbf{Hyperboloid (enmantlad)}
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} - \frac{z^2}{c^2} = 1
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{enmantladhyperboloid.png}
+\end{figure}
+
+\textbf{Hyperboloid (tvåmantlad)}
+\[
+-\frac{x^2}{a^2} - \frac{y^2}{b^2} + \frac{z^2}{c^2} = 1
+\]
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{tvamantladhyperboloid.png}
+\end{figure}
+
+\subsection{Polära och rympolära koordinater}
+\subsubsection*{Polära koordinater}
+En punkt $P$ i planet med rätvinkliga koordinater $(x, y)$, 
+kan också beskrivas med avståndet r från origo tillsammans med vinkel $\varphi$ mot positiva x-axeln.
+$P$ har då polära koordinaterna $(r, \varphi)$. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.25\textwidth]{polarakoordinater.png}
+\end{figure}
+\[
+\begin{cases}
+x = r \sin \varphi, \\
+y = r \sin \varphi 
+\end{cases}
+\]
+I de fall vi har annan medelpunkt än origo, ex. $(x_0, y_0)$:
+\[
+\begin{cases}
+x = x_0 + r \sin \varphi, \\
+y = y_0 + r \sin \varphi 
+\end{cases}
+\]
+Om vi vill beskriva en ellipsskiva, snarare än bara en ellips:
+\[
+\begin{cases}
+x = x_0 + a r \sin \varphi, \\
+y = y_0 + a r \sin \varphi 
+\end{cases}
+\]
+
+\subsubsection*{Cylindriska och rymdpolära koordinater}
+Cylindriska koordinater:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{cylindriskakoordinater.png}
+\end{figure}
+\[
+\begin{cases}
+x = r \sin \varphi, \\
+y = r \sin \varphi, \\
+z = z
+\end{cases}
+\]
+
+En annan koordinat än $z$ kan vara oförändrad.
+
+Rymdpolära koordinater:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{rymdpolarakoordinater.png}
+\end{figure}
+\[
+\begin{cases}
+x = r \sin \theta \cos \varphi, \\
+y = r \sin \theta \sin \varphi, \\
+z = r \cos \theta
+\end{cases}
+\]
 
 \section{Kapitel 3: Funktioner}
 
@@ -190,6 +328,8 @@ kallas en \textbf{nivåkurva} till f. Konstanten C motsvarar således “höjden
   \centering
   \includegraphics[width=0.25\textwidth]{nivakurva.png}
 \end{figure}
+
+
 
 \end{document}
 
