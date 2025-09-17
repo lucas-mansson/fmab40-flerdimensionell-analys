@@ -329,7 +329,71 @@ kallas en \textbf{nivåkurva} till f. Konstanten C motsvarar således “höjden
   \includegraphics[width=0.25\textwidth]{nivakurva.png}
 \end{figure}
 
+\subsection{Vektorvärda funktioner}
+En funktion av typen $f: \mathbb{R}^n \to \mathbb{R}^p$, där $p \ge 2$, kallas \textbf{vektorvärd}.
+eftersom funktionsvärdena då är vektorer.
+\subsubsection*{Funktioner av typen $\mathbb{R} \to \mathbb{R}^2$ och $\mathbb{R} \to \mathbb{R}^3$ (kurvor)}
+\[
+    \textbf{r}(t) = (x(t), y(t))
+\]
+\[
+    \textbf{r}(t) = (x(t), y(t), z(t))
+\]
 
+\subsubsection*{Funktioner av typen $\mathbb{R}^2 \to \mathbb{R}^3$ (ytor)}
+\[
+    \textbf{r}(s, t) = (x(s, t), y(s, t), z(s, t))
+\]
+
+\subsubsection*{Funktioner av typen $\mathbb{R}^2 \to \mathbb{R}^2$ och $\mathbb{R}^3 \to \mathbb{R}^3$ (koordinatbyten)}
+(fyll i senare)
+
+\subsubsection*{Funktioner av typen $\mathbb{R}^2 \to \mathbb{R}^2$ och $\mathbb{R}^3 \to \mathbb{R}^3$ (vektorfält)}
+(fyll i senare)
+
+\subsection{Sammansättning av funktioner}
+\[
+    (f \circ g)(x) = f(g(x))
+\]
+
+\subsection{Gränsvärden och kontinuitet}
+\subsubsection*{Definition av gränsvärden då $(x, y) \to (a, b)}
+Vi säger att $f(x, y)$ har gränsvärdet $A$ då $(x, y) \to (a, b)$, och skriver
+\[
+    \lim_{(x, y) \to (a, b)}f(x, y) = A,
+\]
+
+\subsubsection*{Beräkning av gränsvärden då $(x, y) \to (a, b)}
+I envariabelfallet finns det endast två sätt att närma sig en punkt. Med två variabler finns det oändligt många.Ett sätt att hantera är att uttrycka punkterna i polära koordinater.
+\[
+\begin{cases}
+x = r \sin \varphi, \\
+y = r \sin \varphi 
+\end{cases}
+\]
+
+Tillvägagångssätt:
+\begin{itemize}
+    \item Gör en kvalificerad gissning av vad gränsvärdet bör vara
+    \item Bilda absolutbeloppet $|f(x, y) - A|$, byt till polära koordinater, och försök att göra $|f(x,y) - A|$ oberoende av $\varphi$ genom en lämplig uppskattning uppåt.
+    \item Visa att denna uppskattning går mot 0 då $r \to 0$.
+\end{itemize}
+
+\subsubsection*{Beräkning av gränsvärden då $|(x, y)| \to \infty}
+(Fyll i vid behov)
+
+\subsubsection*{Gränsvärden för allmänna funktioner $\mathbb{R}^n \to \mathbb{R}^p$}
+(Fyll i vid behov)
+
+\subsubsection*{Kontinuitet}
+Låt funktionen $f$ vara en funktion av typen $\mathbb{R}^2 \to \mathbb{R}^$ som är definerad i punkten $(a, b)$. Om det gäller att
+\[
+    \lim_{(x,y) \to (a, b)}f(x, y) = f(a, b)
+\] 
+är $f$ kontinuerlig i $(a, b)$.
+Antag att den reellvärda funktionen $f(x, y)$ är kontinuerlig på den slutna begränsade (dvs. kompakta) mängden D i plaet. Då antar funktionen både ett största och minsta värde i D.
+
+\textbf{Satsen o mellanliggande värden}: Antag att den reellvärda funktionen $f(x, y)$ är kontinuerlig på en bågvis sammanhängande mängd $D$ i planet. Om $(a_1, b_1)$ och $(a_2, b_2)$ är punkter i $D$ sådana att $f(a_1, b_1) \neq f(a_2, b_2)$, så antar funktionen samtliga värden mellan $f(a_1, b_1)$ och $f(a_2, b_2)$.
 
 \end{document}
 

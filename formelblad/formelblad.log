@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.17)  17 SEP 2025 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.17)  17 SEP 2025 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,25 +278,72 @@ File: images/nivakurva.png Graphic file (type png)
 <use images/nivakurva.png>
 Package pdftex.def Info: images/nivakurva.png  used on input line 329.
 (pdftex.def)             Requested size: 97.5pt x 93.84163pt.
- [9 <./images/nivakurva.png>] (./formelblad.aux)
+ [9 <./images/nivakurva.png>]
+./formelblad.tex:360: Missing $ inserted.
+<inserted text> 
+                $
+l.360 ... av gränsvärden då $(x, y) \to (a, b)}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./formelblad.tex:366: Missing $ inserted.
+<inserted text> 
+                $
+l.366 ... av gränsvärden då $(x, y) \to (a, b)}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./formelblad.tex:382: Missing $ inserted.
+<inserted text> 
+                $
+l.382 ...v gränsvärden då $|(x, y)| \to \infty}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[10]
+./formelblad.tex:389: Missing { inserted.
+<to be read again> 
+                   $
+l.389 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
+                                                   som är definerad i punkt...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+./formelblad.tex:389: Missing } inserted.
+<inserted text> 
+                }
+l.389 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
+                                                   som är definerad i punkt...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[11] (./formelblad.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2823 strings out of 476182
- 43121 string characters out of 5795595
- 1928975 words of memory out of 5000000
- 24816 multiletter control sequences out of 15000+600000
- 568071 words of font info for 74 fonts, out of 8000000 for 9000
+ 2828 strings out of 476182
+ 43215 string characters out of 5795595
+ 1930975 words of memory out of 5000000
+ 24820 multiletter control sequences out of 15000+600000
+ 568408 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,7n,65p,224b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on formelblad.pdf (9 pages, 1373388 bytes).
+ 57i,7n,65p,375b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/lucas/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on formelblad.pdf (11 pages, 1381459 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

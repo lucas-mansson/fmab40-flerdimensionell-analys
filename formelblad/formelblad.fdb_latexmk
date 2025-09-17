@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1758131022.42089 "formelblad.tex" "formelblad.pdf" "formelblad" 1758131023.18017 0
+["pdflatex"] 1758136464.37892 "formelblad.tex" "formelblad.pdf" "formelblad" 1758136465.13584 2
   "/etc/texmf/web2c/texmf.cnf" 1757800137.06713 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/lucas/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1758133416.40259 14040 f417f9f906ce85bcd9e4bb1693dce267 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -63,8 +65,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758116653.46868 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758116690 6800787 0d38753d1e9229a9d2c47b9b0ca2c63a ""
-  "formelblad.aux" 1758131023.13784 1385 75fc38e4cf9c17cf9df84ac581551f95 "pdflatex"
-  "formelblad.tex" 1758131020.85305 7580 79ddc3ce3b76f3a8648933167710845c ""
+  "formelblad.aux" 1758136465.09071 1748 28cc49f767d77bfefd176f6d2cbcd534 "pdflatex"
+  "formelblad.tex" 1758136462.83983 10358 7773f46287fa679385ad5d7a15550d10 ""
   "images/cirkel.png" 1758116971.71182 7388 850eb2688100cda444cd9d5052030cc7 ""
   "images/cylindriskakoordinater.png" 1758130863.95229 151309 44bdbe7e05046da5ecb9ceadb0483b2f ""
   "images/ellips.png" 1758117023.88125 14776 1301ea74a9c670cdac9f4d4cdc8238f3 ""
