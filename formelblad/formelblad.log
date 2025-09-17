@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.17)  17 SEP 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.17)  17 SEP 2025 21:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -107,12 +107,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box53
 \@float@everytoks=\toks25
 \@floatcapt=\box54
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -127,37 +138,37 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen151
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
+\l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box55
 ) (./formelblad.aux)
 \openout1 = `formelblad.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
+\scratchcounter=\count276
 \scratchdimen=\dimen152
 \scratchbox=\box56
-\nofMPsegments=\count276
-\nofMParguments=\count277
+\nofMPsegments=\count277
+\nofMParguments=\count278
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count278
+\MPscratchCnt=\count279
 \MPscratchDim=\dimen153
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -165,159 +176,159 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <images/snittuniondifferens.png, id=1, 699.61375pt x 307.1475pt>
 File: images/snittuniondifferens.png Graphic file (type png)
 <use images/snittuniondifferens.png>
-Package pdftex.def Info: images/snittuniondifferens.png  used on input line 22.
+Package pdftex.def Info: images/snittuniondifferens.png  used on input line 23.
 (pdftex.def)             Requested size: 390.0pt x 171.22343pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/snittuniondifferens.png>]
-<images/ortogonalprojektion.png, id=18, 624.3325pt x 144.54pt>
+<images/ortogonalprojektion.png, id=15, 624.3325pt x 144.54pt>
 File: images/ortogonalprojektion.png Graphic file (type png)
 <use images/ortogonalprojektion.png>
-Package pdftex.def Info: images/ortogonalprojektion.png  used on input line 82.
+Package pdftex.def Info: images/ortogonalprojektion.png  used on input line 83.
 (pdftex.def)             Requested size: 390.0pt x 90.29094pt.
  [2 <./images/ortogonalprojektion.png>]
-<images/ratlinje.png, id=24, 555.07375pt x 556.0775pt>
+<images/ratlinje.png, id=23, 555.07375pt x 556.0775pt>
 File: images/ratlinje.png Graphic file (type png)
 <use images/ratlinje.png>
-Package pdftex.def Info: images/ratlinje.png  used on input line 125.
+Package pdftex.def Info: images/ratlinje.png  used on input line 126.
 (pdftex.def)             Requested size: 97.5pt x 97.67139pt.
-<images/parabel.png, id=25, 555.07375pt x 556.0775pt>
+ [3]
+<images/parabel.png, id=29, 555.07375pt x 556.0775pt>
 File: images/parabel.png Graphic file (type png)
 <use images/parabel.png>
-Package pdftex.def Info: images/parabel.png  used on input line 134.
+Package pdftex.def Info: images/parabel.png  used on input line 135.
 (pdftex.def)             Requested size: 97.5pt x 97.67139pt.
- [3 <./images/ratlinje.png>]
-<images/cirkel.png, id=31, 231.86626pt x 203.76125pt>
+<images/cirkel.png, id=30, 231.86626pt x 203.76125pt>
 File: images/cirkel.png Graphic file (type png)
 <use images/cirkel.png>
-Package pdftex.def Info: images/cirkel.png  used on input line 143.
+Package pdftex.def Info: images/cirkel.png  used on input line 144.
 (pdftex.def)             Requested size: 97.5pt x 85.68173pt.
-<images/ellips.png, id=32, 428.60126pt x 225.84375pt>
+<images/ellips.png, id=31, 428.60126pt x 225.84375pt>
 File: images/ellips.png Graphic file (type png)
 <use images/ellips.png>
-Package pdftex.def Info: images/ellips.png  used on input line 152.
+Package pdftex.def Info: images/ellips.png  used on input line 153.
 (pdftex.def)             Requested size: 97.5pt x 51.37436pt.
-<images/hyperbel.png, id=33, 428.60126pt x 307.1475pt>
+ [4 <./images/ratlinje.png> <./images/parabel.png> <./images/cirkel.png> <./images/ellips.png>]
+<images/hyperbel.png, id=39, 428.60126pt x 307.1475pt>
 File: images/hyperbel.png Graphic file (type png)
 <use images/hyperbel.png>
-Package pdftex.def Info: images/hyperbel.png  used on input line 161.
+Package pdftex.def Info: images/hyperbel.png  used on input line 162.
 (pdftex.def)             Requested size: 97.5pt x 69.86913pt.
- [4 <./images/parabel.png> <./images/cirkel.png> <./images/ellips.png> <./images/hyperbel.png>]
-<images/plan.png, id=41, 688.5725pt x 728.7225pt>
+<images/plan.png, id=40, 688.5725pt x 728.7225pt>
 File: images/plan.png Graphic file (type png)
 <use images/plan.png>
-Package pdftex.def Info: images/plan.png  used on input line 180.
+Package pdftex.def Info: images/plan.png  used on input line 181.
 (pdftex.def)             Requested size: 97.5pt x 103.17686pt.
-<images/paraboloid.png, id=42, 518.93875pt x 393.47pt>
+<images/paraboloid.png, id=41, 518.93875pt x 393.47pt>
 File: images/paraboloid.png Graphic file (type png)
 <use images/paraboloid.png>
-Package pdftex.def Info: images/paraboloid.png  used on input line 189.
+Package pdftex.def Info: images/paraboloid.png  used on input line 190.
 (pdftex.def)             Requested size: 97.5pt x 73.92554pt.
-<images/kon.png, id=43, 566.115pt x 527.9725pt>
+ [5 <./images/hyperbel.png> <./images/plan.png>]
+<images/kon.png, id=47, 566.115pt x 527.9725pt>
 File: images/kon.png Graphic file (type png)
 <use images/kon.png>
-Package pdftex.def Info: images/kon.png  used on input line 198.
+Package pdftex.def Info: images/kon.png  used on input line 199.
 (pdftex.def)             Requested size: 97.5pt x 90.93034pt.
- [5 <./images/plan.png> <./images/paraboloid.png> <./images/kon.png>]
-<images/sfar.png, id=50, 439.6425pt x 323.2075pt>
+<images/sfar.png, id=48, 439.6425pt x 323.2075pt>
 File: images/sfar.png Graphic file (type png)
 <use images/sfar.png>
-Package pdftex.def Info: images/sfar.png  used on input line 207.
+Package pdftex.def Info: images/sfar.png  used on input line 208.
 (pdftex.def)             Requested size: 97.5pt x 71.67795pt.
-<images/ellipsoid.png, id=51, 469.755pt x 362.35374pt>
+<images/ellipsoid.png, id=49, 469.755pt x 362.35374pt>
 File: images/ellipsoid.png Graphic file (type png)
 <use images/ellipsoid.png>
-Package pdftex.def Info: images/ellipsoid.png  used on input line 216.
+Package pdftex.def Info: images/ellipsoid.png  used on input line 217.
 (pdftex.def)             Requested size: 97.5pt x 75.20634pt.
-<images/hyperboliskparaboloid.png, id=52, 749.80125pt x 473.77pt>
+<images/hyperboliskparaboloid.png, id=50, 749.80125pt x 473.77pt>
 File: images/hyperboliskparaboloid.png Graphic file (type png)
 <use images/hyperboliskparaboloid.png>
-Package pdftex.def Info: images/hyperboliskparaboloid.png  used on input line 225.
+Package pdftex.def Info: images/hyperboliskparaboloid.png  used on input line 226.
 (pdftex.def)             Requested size: 97.5pt x 61.59949pt.
-<images/enmantladhyperboloid.png, id=53, 786.94pt x 712.6625pt>
+ [6 <./images/paraboloid.png> <./images/kon.png> <./images/sfar.png> <./images/ellipsoid.png>]
+<images/enmantladhyperboloid.png, id=58, 786.94pt x 712.6625pt>
 File: images/enmantladhyperboloid.png Graphic file (type png)
 <use images/enmantladhyperboloid.png>
-Package pdftex.def Info: images/enmantladhyperboloid.png  used on input line 234.
+Package pdftex.def Info: images/enmantladhyperboloid.png  used on input line 235.
 (pdftex.def)             Requested size: 97.5pt x 88.28876pt.
- [6 <./images/sfar.png> <./images/ellipsoid.png> <./images/hyperboliskparaboloid.png> <./images/enmantladhyperboloid.png>]
-<images/tvamantladhyperboloid.png, id=61, 786.94pt x 712.6625pt>
+<images/tvamantladhyperboloid.png, id=59, 786.94pt x 712.6625pt>
 File: images/tvamantladhyperboloid.png Graphic file (type png)
 <use images/tvamantladhyperboloid.png>
-Package pdftex.def Info: images/tvamantladhyperboloid.png  used on input line 243.
+Package pdftex.def Info: images/tvamantladhyperboloid.png  used on input line 244.
 (pdftex.def)             Requested size: 97.5pt x 88.28876pt.
-<images/polarakoordinater.png, id=62, 307.1475pt x 227.85126pt>
+<images/polarakoordinater.png, id=60, 307.1475pt x 227.85126pt>
 File: images/polarakoordinater.png Graphic file (type png)
 <use images/polarakoordinater.png>
-Package pdftex.def Info: images/polarakoordinater.png  used on input line 253.
+Package pdftex.def Info: images/polarakoordinater.png  used on input line 254.
 (pdftex.def)             Requested size: 97.5pt x 72.32979pt.
-<images/cylindriskakoordinater.png, id=63, 434.62375pt x 296.10625pt>
+ [7 <./images/hyperboliskparaboloid.png> <./images/enmantladhyperboloid.png> <./images/tvamantladhyperboloid.png>]
+<images/cylindriskakoordinater.png, id=68, 434.62375pt x 296.10625pt>
 File: images/cylindriskakoordinater.png Graphic file (type png)
 <use images/cylindriskakoordinater.png>
-Package pdftex.def Info: images/cylindriskakoordinater.png  used on input line 280.
+Package pdftex.def Info: images/cylindriskakoordinater.png  used on input line 281.
 (pdftex.def)             Requested size: 195.0pt x 132.85349pt.
- [7 <./images/tvamantladhyperboloid.png> <./images/polarakoordinater.png>]
-<images/rymdpolarakoordinater.png, id=70, 490.83376pt x 355.3275pt>
+<images/rymdpolarakoordinater.png, id=69, 490.83376pt x 355.3275pt>
 File: images/rymdpolarakoordinater.png Graphic file (type png)
 <use images/rymdpolarakoordinater.png>
-Package pdftex.def Info: images/rymdpolarakoordinater.png  used on input line 295.
+Package pdftex.def Info: images/rymdpolarakoordinater.png  used on input line 296.
 (pdftex.def)             Requested size: 195.0pt x 141.16338pt.
- [8 <./images/cylindriskakoordinater.png> <./images/rymdpolarakoordinater.png>]
-<images/nivakurva.png, id=76, 240.9pt x 231.86626pt>
+ [8 <./images/polarakoordinater.png> <./images/cylindriskakoordinater.png>]
+<images/nivakurva.png, id=75, 240.9pt x 231.86626pt>
 File: images/nivakurva.png Graphic file (type png)
 <use images/nivakurva.png>
-Package pdftex.def Info: images/nivakurva.png  used on input line 329.
+Package pdftex.def Info: images/nivakurva.png  used on input line 330.
 (pdftex.def)             Requested size: 97.5pt x 93.84163pt.
- [9 <./images/nivakurva.png>]
-./formelblad.tex:360: Missing $ inserted.
+ [9 <./images/rymdpolarakoordinater.png>]
+./formelblad.tex:361: Missing $ inserted.
 <inserted text> 
                 $
-l.360 ... av gränsvärden då $(x, y) \to (a, b)}
+l.361 ... av gränsvärden då $(x, y) \to (a, b)}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./formelblad.tex:366: Missing $ inserted.
+[10 <./images/nivakurva.png>]
+./formelblad.tex:367: Missing $ inserted.
 <inserted text> 
                 $
-l.366 ... av gränsvärden då $(x, y) \to (a, b)}
+l.367 ... av gränsvärden då $(x, y) \to (a, b)}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./formelblad.tex:382: Missing $ inserted.
+./formelblad.tex:383: Missing $ inserted.
 <inserted text> 
                 $
-l.382 ...v gränsvärden då $|(x, y)| \to \infty}
+l.383 ...v gränsvärden då $|(x, y)| \to \infty}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[10]
-./formelblad.tex:389: Missing { inserted.
+./formelblad.tex:390: Missing { inserted.
 <to be read again> 
                    $
-l.389 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
+l.390 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
                                                    som är definerad i punkt...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
 so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
-./formelblad.tex:389: Missing } inserted.
+./formelblad.tex:390: Missing } inserted.
 <inserted text> 
                 }
-l.389 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
+l.390 ...n av typen $\mathbb{R}^2 \to \mathbb{R}^$
                                                    som är definerad i punkt...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -325,25 +336,25 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[11] (./formelblad.aux)
+[11] [12] (./formelblad.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2828 strings out of 476182
- 43215 string characters out of 5795595
- 1930975 words of memory out of 5000000
- 24820 multiletter control sequences out of 15000+600000
+ 3550 strings out of 476182
+ 54339 string characters out of 5795595
+ 1931975 words of memory out of 5000000
+ 25523 multiletter control sequences out of 15000+600000
  568408 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,7n,65p,375b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,524b,236s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/lucas/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on formelblad.pdf (11 pages, 1381459 bytes).
+Output written on formelblad.pdf (12 pages, 1381545 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
