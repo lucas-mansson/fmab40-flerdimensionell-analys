@@ -1,0 +1,39 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.xdv
+
+# compiled output except pdf
+*.dvi
+*.ps
+
+# Editors and OS metadata
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+*.png
