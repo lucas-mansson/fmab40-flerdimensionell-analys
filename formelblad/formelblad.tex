@@ -473,5 +473,57 @@ Vi definierar riktningsderivatan av $f$ i punkten $(a, b)$ i rikningen $\textbf{
 \]
 under förutsättning att detta gränsvärde existerar (ändligt).
 
+\subsection{Differentierbarhet}
+\textbf{Defintion:} Antag att funktionen $f$ är definineriad i en omgivning av punkten $(a, b)$. Vi säger att f är differentierbar i punkten $(a, b)$
+om det finns tal $A$ och $B$ sådana att:
+\[
+    f(a + h, b + k) - f(a, b) = Ah + Bh + \sqrt{h^2 + k^2} p(h, k),  
+\]
+för någon funktion $p$ sådan att $p(h, k) \to 0$ då $(h, k) \to (0, 0)$.
+
+\textbf{Sats 1:} Antag att funktionen $f(x, y)$ är differentierbar i punkten $(a, b)$. Då är $f$ partiellt deriverbar i $(a, b)$, och det gäller att:
+\[
+    f'_x(a, b) = A 
+\]
+och
+\[
+    f'_y(a, b) = B
+\]
+där $A$ och $B$ är talen i definitionen.
+
+\textbf{Sats 2:} Om funktionen $f$ är differentierbar i punkten $(a, b)$ så är $f$ också kontinuerlig i $(a, b)$.t
+
+\subsection{Kedjeregeln (fyll ut?)}
+Antag att $g_1$ och $g_2$ är deriverbara i punkten $x$, och att $f(u, v)$ är differentierbar i punkten $(g_1(x), g_2(x))$.
+Då är den sammansatta funktionen $h(x) = f(g(x)) = f(g_1(x), g_2(x))$ deriverbar i $x$ med derivatan
+\[
+    h'(x) = f'_u(g(x)) * g'_1(x) + f'_v(g(x))*g'_2(x)
+\]
+
+\subsection{Mer om gradient och riktningsderivata}
+\textbf{Sats:} Antag att funktionen $f$ är differentierbar på det öppna området $D$, och att $D$ är bågvis sammanhängande. 
+Om det gäller att grad $f(x, y) = 0$ för alla $(x, y) \in D$ så är $f$ konstant på $D$.
+
+\textbf{Sats:} Antag att funktionen $f$ är differentierbar i punkten $(a, b)$ och att $\textbf{v} = (v_1, v_2)$ är en vektor med längd 1.
+Då ges riktningsderivatan av $f$ i punkten $(a, b)$, i riktningen \textbf{v}, av skalärprodukten
+
+\[
+    f'_\textbf{v}(a, b) = \text{grad} f(a, b)*\textbf{v}
+\]
+
+\textbf{Sats:} Antag att funktionen $f$ är differentierbar i punkten $(a, b)$. Tillväxthastigheten för $f$ i $(a, b)$ varierar mellan $-|\text{grad} f(a, b)|$ och $|\text{grad} f(a, b)|$. Alltså:
+
+\[
+    -|\text{grad} f(a, b)| \leq f'_v(a, b) \leq |\text{grad} f(a, b)|
+\]
+
+\textbf{Sats:} Antag att funktionen f är kontinuerligt partiellt deriverbar i punkten $(a, b)$ och att $\text{grad} f(a, b) \neq 0$. 
+Om $\Upsilon$ är nivåkurvan till $f$ genom punkten $(a, b)$ så gäller det att $\text{grad} f(a, b)$ är ortogonal mot $\Upsilon$ i $(a, b)$.
+
+\textbf{Sats:} Antag att funktionen $f$ är kontinuerligt partiellt deriverbar i punkten $(a, b, c)$, och att $\text{grad} f(a, b, c) \neq 0$. 
+Om $\Gamma$ är nivåyan till $f$ genom punkten $(a, b, c)$ så gäller det att $\text{grad} f(a, b, c)$ är ortogonal mot \Gamma i $(a, b, c)$.
+
+\subsection{Differentialer och feluppskattning}
+
 \end{document}
 
