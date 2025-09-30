@@ -546,7 +546,140 @@ Då gäller det, för alla punker $(x, y) = (a + h, b + k)$ i denna omgivning at
 \end{multiline}
 där $B(h,k)$ är begränsad då $(h, k)$ är litet.
 
-\subsubsection{Lokala extrempunkter}
+\subsection{Lokala extrempunkter}
+\textbf{Defintion}. En punkt $(a, b) \in D_f$ kallas en \textbf{lokal maximipunkt} till funktionen $f$, 
+och vi säger att $f$ har ett \textbf{lokalt maximum} i $(a, b)$ om
+\[
+    f(a, b) \leq f(x, y) \text{ för alla } (x, y) \in D_f \text{ nära } (a, b).
+\]
+
+\textbf{Sats}. Antag att $(a, b)$ är en lokal extrempunkt till funktionen $f$, och att $f$ är partiellt deriverbar i $(a, b)$. Då är $\text{grad} f(a, b) = 0$, dvs. alla partiella derivator är lika med noll i $(a, b)$.
+
+\subsubsection*{Tillräckliga villkor}
+Ett tillräckligt villkor garanterar att den stationära punkt vi studerar är en lokal extrempunkt.
+
+Vi kommer också se en metod för att avgöra punktens karaktär, dvs. avgöra om den stationära punkten är maximipunkt, minimipunkt, eller ingetdeta
+
+\textbf{Kvadratiska formen} $f$ i punkten $(a, b)$ betecknas $Q(h, k)$.
+\[
+    Q(h, k) = f''_{xx}(a, b)h^2 + 2f''_{xy}(a, b)hk + f''_{yy}(a, b)k^2
+\]
+
+\textbf{Definition}.
+Vi säger att den kvadratiska formen $Q(h, k)$ är:
+\begin{itemize}
+    \item[] \textbf{positivt definit} om $Q(h, k) > 0$ för alla $(h, k) \neq (0, 0)$.
+    \item[] \textbf{negativt definit} om $Q(h, k) < 0$ för alla $(h, k) \neq (0, 0)$.
+    \item[] \textbf{indefinit} om $Q(h, k)$ antar både positiva och negativa värden.
+\end{itemize}
+Om $Q(h, k) \geq 0$ men lika med noll för något $(h, k) \neq (0, 0)$ så säger vi att formen är \textbf{positivt semidefinit},
+och om $Q(h, k) \leq 0$ men lika med noll för något $(h, k) \neq (0, 0)$ så säger vi att formen är \textbf{negativt semidefinit},
+
+\textbf{Sats}. Antag att $(a, b)$ är en stationär punkt till $f$, och att $Q(h, k)$ är den kvadratiska formen av $f$ i $(a, b)$. Då gäller:
+\begin{itemize}
+    \item[] om $Q(h, k)$ är positivt definit så har $f$ ett lokal minimum i $(a, b)$.
+    \item[] om $Q(h, k)$ är negativt definit så har $f$ ett lokal maximum i $(a, b)$.
+    \item[] om $Q(h, k)$ är indefinit så har $f$ en sadelpunkt i $(a, b)$.
+\end{itemize}
+
+I fallet då $Q(h, k)$ är semidefinit så kan vi inte dra någon slutsats om punktens karaktär.
+
+\subsection{Optimering}
+
+\subsubsection*{Kompakt område}
+Fyll i
+
+\subsubsection*{Icke-kompakt område}
+Fyll i
+
+\subsection{Optimering med bivillkor}
+\textbf{Sats}. Antag att punkten $(a, b)$ är en (lokal) extrempunkt till funktionen $f(x, y)$ under bivillkoret $g(x, y) = C$. 
+Antag vidare att $(a, b)$ är en inre punkt till $D_f$ och $D_g$. Då gäller det att $\text{grad} f(a, b)$ och $\text{grad} g(a, b)$ är parallella.
+
+\textbf{Sats}. Antag att punkten $(a, b, c)$ är en (lokal) extrempunkt till funktionen $f(x, y, z)$ under bivillkoret $g(x, y, z) = C$. 
+Antag vidare att $(a, b, c)$ är en inre punkt till $D_f$ och $D_g$. Då gäller det att $\text{grad} f(a, b, c)$ och $\text{grad} g(a, b, c)$ är parallella.
+
+\textbf{Sats}. Antag att punkten $(a_1, ..., a_n)$ är en (lokal) extrempunkt till funktionen $f(x_1, ..., x_n)$ under bivillkoren:
+\[
+    g_1(x_1, ..., x_n) = C_1, g_2(x_1, ..., x_n) = C_2, g_m(x_1, ..., x_n) = C_m, 
+\]
+
+Antag vidare att $(a_1,..., a_n$ är en inre punkt till $D_f$ och $D_gi$. Då gäller det att:
+\[
+    \text{grad } f_1(a_1, ..., a_n), \text{grad } g_1(a_1, ..., a_n), \text{grad } g_m(a_1, ..., a_n)
+\]
+är linjärt beroende.
+
+\section{Differentialkalkyl för vektorvärda funktioner}
+Övn. endast för Funktionalmatris, funktionaldeterminant, Implicita funktioner.
+
+\subsection{(Vektorvärda funktioner av en variabel)}
+\subsection{(Vektorvärda funktioner av flera variabler)}
+
+\subsection{Funktionalmatris och funktionaldeterminant}
+\subsubsection*{Definition av funktionalmatris}
+Låt $\textbf{f} = (f_1, f_2, ..., f_p)$ vara en funktion av variablerna $x_1, x_2, ..., x_n$.
+Vi definierar funktionalmatrisen \textbf{f'} av \textbf{f} enligt: 
+\[
+\mathbf{f}' = \frac{\partial (f_1, f_2, \ldots, f_p)}{\partial (x_1, x_2, \ldots, x_n)} =
+\begin{pmatrix}
+    \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \cdots & \frac{\partial f_1}{\partial x_n} \\
+    \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \cdots & \frac{\partial f_2}{\partial x_n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    \frac{\partial f_p}{\partial x_1} & \frac{\partial f_p}{\partial x_2} & \cdots & \frac{\partial f_p}{\partial x_n}
+\end{pmatrix}
+\]
+
+\subsubsection*{Differential och linjärisering}
+\[
+    f(a + h) - f(a) = \Delta f = f'(a)*h + R
+\]
+Där restermen $R = p(h)h$ är relativt liten för små tillskott $h$.
+
+Detta är samma för vektorvärda funktioner:
+
+\[
+\begin{pmatrix}
+    \Delta f_1 \\
+    \Delta f_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+    \frac{\partial f_1}{\partial x} & \frac{\partial f_1}{\partial y} \\ 
+    \frac{\partial f_2}{\partial x} & \frac{\partial f_2}{\partial y} \\ 
+\end{pmatrix}
+\begin{pmatrix}
+    h \\ k
+\end{pmatrix}
++
+\begin{pmatrix}
+    R_1 \\ R_2
+\end{pmatrix}
+\]
+
+\[
+    \Delta \textbf{f}' * \textbf{h} + \textbf{R}
+\]
+
+\subsubsection*{Funktionaldeterminant}
+Låt $\textbf{f} = (f_1, f_2, ..., f_n)$ vara en funktion av variablerna $x_1, x_2, ..., x_n$, med funktionalmatris $\textbf{f}'$.
+Vi definierar funktionaldeterminanten av $\textbf{f}'$ som
+
+\[
+\det \mathbf{f}' = 
+\left|
+\begin{matrix}
+\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \cdots & \frac{\partial f_1}{\partial x_n} \\
+\frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \cdots & \frac{\partial f_2}{\partial x_n} \\
+\vdots & \ddots & \vdots \\
+\frac{\partial f_n}{\partial x_1} & \frac{\partial f_n}{\partial x_2} & \cdots & \frac{\partial f_n}{\partial x_n}
+\end{matrix}
+\right|
+\]
+
+
+
+\subsection{Inversa och implicita funktionssatsen}
 
 \end{document}
 
